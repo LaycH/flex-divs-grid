@@ -97,8 +97,9 @@ textarea {
 
 
 html {
-  background-color:#408000;
+  background-color:darkmagenta;
   height: 100%;
+  width:100%;
 }
 
 body {
@@ -108,9 +109,31 @@ body {
   height: 100%;
 }
 
+header,footer {
+    background-color:darkmagenta;
+    height: 80px;
+    width: 100%;
+}
+
+main {
+    background-color:darkmagenta;
+    height: 250px;
+    width: 100%;
+  }
+
+header,footer, main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid black 1px;
+    margin: 1em;
+}
+
 .wrapper {
   display:flex;
+  flex-flow:nowrap;
   justify-content: space-between;
+  align-items:center;
   font-weight: 700;
 }
 
@@ -122,10 +145,10 @@ body {
   color:whitesmoke;
   line-height: 1.5em;
   font-size: 1em;
-  background-color:#408000;
-  height: 300px;
-  padding-left: 1em;
-  border-left:solid 1px whitesmoke;
+  background-color:darkmagenta;
+  height: 200px;
+  padding-left: .5em;
+  border:solid black 1px;
 }
 
 
